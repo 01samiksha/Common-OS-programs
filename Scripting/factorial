@@ -1,0 +1,12 @@
+echo Enter a number
+read n
+f=1
+while [ $n -ne 0 ]
+do
+ #f=$(($f \* $n))
+ f=`expr $f \* $n`
+ n=`expr $n - 1`
+
+#echo $n $f
+done
+echo $f

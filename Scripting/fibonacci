@@ -1,0 +1,15 @@
+echo Enter the numbers
+read n
+a=0
+b=1
+
+echo $a $b
+
+while [ $n -ne 0 ]
+do
+ c=`expr $a + $b`
+ a=$b
+ b=$c
+ echo $c
+ n=`expr $n -1`
+done

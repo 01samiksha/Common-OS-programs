@@ -1,0 +1,3 @@
+echo Enter the radius
+read r
+echo Circumference is: `expr 2 \* 3 \* $r`

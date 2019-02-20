@@ -1,0 +1,6 @@
+echo Enter the 3 marks:
+read num1 
+read num2 
+read num3
+avg=$((($num1+$num2+$num3)/3))
+echo Average of the numbers is $avg
